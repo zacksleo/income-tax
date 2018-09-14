@@ -24,7 +24,7 @@ class ServiceTax implements TaxInterface
 
     private $taxRate;
 
-    function __construct($income)
+    public function __construct($income)
     {
         if ($income <= 800) {
             $this->tax = 0;

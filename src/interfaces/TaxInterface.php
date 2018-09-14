@@ -15,7 +15,7 @@ namespace zacksleo\incometax\interfaces;
 interface TaxInterface
 {
 
-    function __construct($income);
+    public function __construct($income);
 
     /**
      * 计算应纳税额
