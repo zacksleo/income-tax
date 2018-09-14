@@ -14,7 +14,6 @@ namespace zacksleo\incometax\interfaces;
  */
 interface TaxInterface
 {
-
     public function __construct($income);
 
     /**
